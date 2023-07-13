@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEWORK_04</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="'https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap'" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div style="width: 95%" class="top">
+        <div class="left">
+            <p> <i style="color: rgb(201, 243, 201);" id="checkicon" class="fa-sharp fa-solid fa-check-double"></i> Job Passcard</p>
+        </div>
+        <div class="center">
+            <a href="#">ABOUT US</a>
+            <a href="#">PASSCARD</a>
+            <a href="#">PROFILE</a>
+        </div>
+        <div class="right">
+            <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            <p><i class="fa-solid fa-cart-shopping"></i></p>
+            <a href="#">LOGIN</a>
+            <a style="margin-left: 10px;" href="#">SiGN UP</a>
+        </div>
+    </div>
+
+
+
+    <div style="margin-left: 60px" class="mid">
+        <h1>My Cart</h1>
+    </div>
+
+
+
+    <div style="margin-bottom: 20px;" class="cart">
+        <div style="margin-left: 60px;" class="cartitem">
+            <div class="cartdocs">
+                <p><i id="bin" class="fa-solid fa-trash-can"></i></i></p>
+                <div style="background-color: skyblue;" class="docs">
+                    <p><i class="fa-regular fa-file"></i></p>
+                    <p>Google Docs</p>
+                    <p>Used for business</p>
+                </div>
+                <div class="price">
+                    <div class="docsprice">
+                        <p> <strong> Google Docs</strong></p>
+                        <i class="fa-solid fa-star" style="color: #9199a6;"></i>
+                        <i class="fa-regular fa-star" style="color: #9199a6;"></i>
+                        <i class="fa-regular fa-star" style="color: #9199a6;"></i>
+                        <select name="level" id="level">
+                            <option value="LV 1-3">LV 1-3</option>
+                            <option value="LV 2-3">LV 2-3</option>
+                            <option value="LV 3-3">LV 3-3</option>
+                           
+                        </select>
+                    </div>
+                    <div class="priceitem">
+                        <p style="color: #9199a6;"><strong>THB 150</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cartslides">
+                <p><i id="bin" class="fa-solid fa-trash-can"></i></p>
+                <div style="background-color: orange;" class="docs">
+                    <p><i class="fa-regular fa-file"></i></p>
+                    <p>Google Slides</p>
+                    <p>Used for business</p>
+                </div>
+                <div class="price">
+                    <div class="slidesprice">
+                        <p> <strong> Google Slides</strong></p>
+                        <i class="fa-solid fa-star" style="color: #9199a6;"></i>
+                        <i class="fa-regular fa-star" style="color: #9199a6;"></i>
+                        <i class="fa-regular fa-star" style="color: #9199a6;"></i>
+                        <i class="fa-regular fa-star" style="color: #9199a6;"></i>
+                        <select name="level" id="level">
+                            <option value="LV 1-4">LV 1-4</option>
+                            <option value="LV 2-4">LV 2-4</option>
+                            <option value="LV 3-4">LV 3-4</option>
+                            <option value="LV 4-4">LV 4-4</option>
+                        </select>
+                    </div>
+                    <div class="priceitem">
+                        <p style="color: #9199a6;"><strong>THB 150</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="margin-right: 60px;" class="total">
+            <p style="font-size: 32px;"> <strong>Order Info</strong> </p>
+            <div style="color: #9199a6;" class="subtotal">
+                <p> <strong>Subtotal</strong> </p>
+                <p> <strong>THB 300</strong> </p>
+            </div>
+            <div class="pro">
+                <i class="fa-regular fa-keyboard"></i>
+                <input type="text" id="promo" name="promo" value="Promotion code" >
+                <input id="apply" type="button" value="APPLY">
+            </div>
+            <hr>
+            <div class="payment">
+                <p> <strong>Total payment</strong> </p>
+                <p> <strong>THB 300</strong> </p>
+            </div>
+            <input id="login" type="button" value="LOGIN TO CHECKOUT">
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+  </style>
